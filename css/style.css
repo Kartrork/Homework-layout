@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+nav{
+    background: teal;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+ul, li{
+    list-style: none;
+    display: inline;
+    margin: 15px;
+}
+a {
+    text-decoration: none;
+}
+.container{
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 8;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    gap: 10px;
+}
+.boxes{
+ 
+    display: flex;
+    gap: 20px;
+}
+.box{
+    width: 400px;
+    border-radius: 20px;
+    background: pink;
+    flex-grow: 90px;
+
+}
